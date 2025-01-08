@@ -59,13 +59,13 @@ const AboutUs = () => {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* Team Member Card */}
           {[
-            { name: "Rohit giri", role: "Handsome Boy", img: "https://via.placeholder.com/100" },
-            { name: "Anshu", role: "Chief Sustainability Officer", img:"https://via.placeholder.com/100" },
-            { name: "ujjwal", role: "Lead Developer", img: "https://via.placeholder.com/100" },
-            { name: "akhand", role: "Lead Developer", img: "https://via.placeholder.com/100"},
-            { name: "ritik", role: "Lead Developer", img: "https://via.placeholder.com/100" },
-            { name: "rudra", role: "Lead Developer", img: "https://via.placeholder.com/100" },
-            { name: "vivek", role: "Lead Developer", img: "https://via.placeholder.com/100" },
+            { name: "Rohit giri", role: "project manager", img: "https://via.placeholder.com/100" },
+            { name: "Anshu", role: "designer", img:"https://via.placeholder.com/100" },
+            { name: "ujjwal", role: "Developer", img: "https://via.placeholder.com/100" },
+            { name: "akhand", role: " Developer", img: "https://via.placeholder.com/100"},
+            { name: "ritik", role: "Developer", img: "https://via.placeholder.com/100" },
+            { name: "rudra", role: "Developer", img: "https://via.placeholder.com/100" },
+            { name: "vivek", role: "Developer", img: "https://via.placeholder.com/100" },
           ].map((member, index) => (
             <div
               key={index}
